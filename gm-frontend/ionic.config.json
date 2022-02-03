@@ -1,0 +1,7 @@
+{
+  "name": "GameMythic_Frontend",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}

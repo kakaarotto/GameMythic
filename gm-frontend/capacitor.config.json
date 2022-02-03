@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "GameMythic_Frontend",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}

@@ -1,0 +1,102 @@
+body {
+  /* IOS lags and slows when pulling up and down scrollbars*/
+  -webkit-overflow-scrolling: touch;
+  --overflow-scrolling      : touch;
+  -webkit-touch-callout     : none;
+  --color-scheme            : none;
+
+}
+
+.container {
+  width : 100%;
+  height: 100%;
+}
+
+/* All game content style */
+.game-list-item .content-title {
+  display    : block;
+  padding    : 0 10px;
+  margin     : 5px 0;
+  font-size  : 0.93rem;
+  font-weight: 450;
+  display    : -webkit-box;
+}
+
+/* global button color */
+ion-button {
+  --color               : #fff;
+  --background          : #ff9820;
+  --background-activated: none;
+}
+
+/* Color change button: Channels, Detail */
+.inactive {
+  color        : #ff9820;
+  border       : 1px solid #ff9820;
+  text-align   : center;
+  box-sizing   : border-box;
+  font-size    : 0.8rem;
+  border-radius: 20px;
+}
+
+.activated {
+  color           : #ffffff !important;
+  border          : 1px solid #808289 !important;
+  text-align      : center;
+  box-sizing      : border-box;
+  font-size       : 0.8rem;
+  border-radius   : 20px;
+  background-color: #808289 !important;
+}
+
+/*  Bottom height, otherwise part of the content will be blocked by the bottom tab */
+.bottom-h {
+  height: 110px;
+}
+
+
+/* Page switch transition animation */
+.slide-right-enter-active,
+.slide-left-enter-active,
+.slide-right-leave-active,
+.slide-left-leave-active {
+  /*Keeping shadows during animation*/
+  box-shadow        : -20px 0 20px 0px rgba(0, 0, 0, 0.1);
+  position          : absolute;
+  will-change       : transform;
+  transition        : all 0.4s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition   : all 0.4s ease-out;
+  -ms-transition    : all 0.4s ease-out;
+  -o-transition     : all 0.4s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+}
+
+
+.slide-right-enter-from {
+  /* Set to 0 to avoid a flash of content at the beginning of the page */
+  opacity  : 0;
+  transform: translateX(55%);
+}
+
+.slide-right-leave-to {
+  z-index  : 100;
+  /* Optimized for shadows to spill onto the screen and not suddenly disappear */
+  transform: translateX(102%);
+}
+
+.slide-right-leave-from {
+  box-shadow: -20px 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+.slide-left-enter-from {
+  z-index   : 100;
+  transform : translateX(102%);
+  box-shadow: -20px 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.slide-left-leave-to {
+  opacity  : 0;
+  transform: translateX(55%);
+}
