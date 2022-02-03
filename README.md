@@ -32,7 +32,7 @@ TestFlight Public Link: https://testflight.apple.com/join/FYFMA16s
 ### Project user interface
 
 Home page:
-![Home](https://i.ibb.co/PDCwztw/IMG-3734.png)
+![Home](https://github.com/kakaarotto/Image/blob/master/img/Home.PNG)
 
 Channels page:
 ![Channels](https://i.ibb.co/X7Bf4P1/IMG-3735.png)
