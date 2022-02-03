@@ -35,16 +35,16 @@ Home page:
 ![Home](https://github.com/kakaarotto/Image/blob/master/img/Home.PNG)
 
 Channels page:
-![Channels](https://i.ibb.co/X7Bf4P1/IMG-3735.png)
+![Channels](https://github.com/kakaarotto/Image/blob/master/img/Channels.PNG)
 
 Content Publish page:
-![Content Publish](https://i.ibb.co/gmHLKLT/IMG-3738.png)
+![Content Publish](https://github.com/kakaarotto/Image/blob/master/img/ContentPublish.PNG)
 
 Notification page：
-![Notification](https://i.ibb.co/kMd7XSb/IMG-3736.png)
+![Notification](https://github.com/kakaarotto/Image/blob/master/img/Notification.PNG)
 
 Profile page：
-![Profile](https://i.ibb.co/D98dDfW/IMG-3737.png)
+![Profile](https://github.com/kakaarotto/Image/blob/master/img/Profile.PNG)
 
 ## Quick start
 
