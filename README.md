@@ -32,18 +32,23 @@ TestFlight Public Link: https://testflight.apple.com/join/FYFMA16s
 ### Project user interface
 
 Home page:
+
 ![Home](https://github.com/kakaarotto/Image/blob/master/img/Home.PNG)
 
 Channels page:
+
 ![Channels](https://github.com/kakaarotto/Image/blob/master/img/Channels.PNG)
 
 Content Publish page:
+
 ![Content Publish](https://github.com/kakaarotto/Image/blob/master/img/ContentPublish.PNG)
 
 Notification page：
+
 ![Notification](https://github.com/kakaarotto/Image/blob/master/img/Notification.PNG)
 
 Profile page：
+
 ![Profile](https://github.com/kakaarotto/Image/blob/master/img/Profile.PNG)
 
 ## Quick start
